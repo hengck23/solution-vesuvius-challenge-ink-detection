@@ -13,7 +13,7 @@ For solution discussion, refer to https://www.kaggle.com/competitions/vesuvius-c
 - ubuntu 18.04.5 LTS
 
 ## 3. Set Up Environment
-- Install Python 3.8.10
+- Install Python >=3.8.10
 - Install requirements.txt in the python environment
 - Set up the directory structure as shown below.
 ``` 
