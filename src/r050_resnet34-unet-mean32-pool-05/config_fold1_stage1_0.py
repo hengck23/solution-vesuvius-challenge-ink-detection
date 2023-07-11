@@ -1,0 +1,54 @@
+from common import *
+
+#------------------------------------------------------------------------------------------------------
+fold     = '1'
+out_dir  = OUT_DIR + '/r050_resnet34-unet-mean32-pool-05'
+fold_dir = out_dir + f'/fold-{fold}/stage1_0'
+
+initial_checkpoint = None
+is_freeze_encoder = False
+
+start_lr = 1e-3
+batch_size = 64
+num_epoch  = 15
+
+train_augment = 'train_augment_v2'
+
+
+
+
+#------------------------------------------------------------------------------------------------------
+class Config(object):
+	valid_threshold = 0.80
+	beta = 1
+	crop_fade  = 32
+	crop_size  = 128
+	crop_depth = 32
+	read_fragment_z = [
+		32-16,
+		32+16,
+	]
+	dz = 0
+
+CFG = Config()
+CFG.infer_fragment_depth = CFG.read_fragment_z[1] - CFG.read_fragment_z[0]
+
+#print CFG function
+def cfg_to_text():
+    d = Config.__dict__
+    text = [f'\t{k} : {v}' for k,v in d.items() if not (k.startswith('__') and k.endswith('__'))]
+    d = CFG.__dict__
+    text += [f'\t{k} : {v}' for k,v in d.items() if not (k.startswith('__') and k.endswith('__'))]
+    return 'CFG\n'+'\n'.join(text)
+
+
+
+
+# main #################################################################
+if __name__ == '__main__':
+	print(cfg_to_text(),'\n')
+
+
+
+
+
