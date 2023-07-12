@@ -105,6 +105,9 @@ usage: python run_infer_ms.py <configure> <model_file>
 
   [[google drive link (1.8 GB)](https://drive.google.com/drive/folders/1LF77aNJhFXQDzn_pVclAc9H2z5ZlGWXt?usp=sharing)]
 
+## 8. Presentation slides:
+Please refer to "[kaggle-winner-call-version-july-05.pdf](https://github.com/hengck23/solution-vesuvius-challenge-ink-detection/blob/main/hyper-parameters.pdf)" in the repo.
+
 ## Authors
 
 - https://www.kaggle.com/hengck23
