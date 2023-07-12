@@ -80,9 +80,10 @@ usage: python run_train.py <configure>
 
 
 ## 5. Submission notebook
- - The public submission notebook is at:
-https://www.kaggle.com/code/hengck23/9th-place-final-ensemble?scriptVersionId=133572613
- - The same learned weights from this repository are used in the submission notebook via the public dataset https://www.kaggle.com/datasets/hengck23/ink-weight-05
+ - The public submission notebook is at:  
+   https://www.kaggle.com/code/hengck23/9th-place-final-ensemble-v1?scriptVersionId=136499959
+
+ - The same learned weights from this repository are used in the submission notebook via the public dataset https://www.kaggle.com/datasets/hengck23/ink-weight-05a
 
    [private / public score] 0.654354 / 0.738625
 
