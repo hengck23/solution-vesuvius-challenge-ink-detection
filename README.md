@@ -31,7 +31,6 @@ For solution discussion, refer to https://www.kaggle.com/competitions/vesuvius-c
     | 
     ├── r050_resnet34-unet-mean32-pool-05.sh   
     ├── r090-pvtv2-daformer-pool-02a.sh  
-    ├── hyper-parameters.pdf
     ├── LICENSE 
     ├── README.md 
 ```
@@ -73,10 +72,8 @@ usage: python run_train.py <configure>
             |      
             ├── fold-2aa
                 ├── stage2_0/checkpoint/00009159.model.pth
-      
- 
 ```
-- optional: if you are interested in the parameters used in training the different stages of the model , you can refer to "solution/hyper-parameters.pdf"
+- optional: if you are interested in the parameters used in training the different stages of the model , you can refer to "[hyper-parameters.pdf](https://github.com/hengck23/solution-vesuvius-challenge-ink-detection/blob/main/hyper-parameters.pdf)" in the repo.
 
 
 ## 5. Submission notebook
@@ -106,7 +103,7 @@ usage: python run_infer_ms.py <configure> <model_file>
   [[google drive link (1.8 GB)](https://drive.google.com/drive/folders/1LF77aNJhFXQDzn_pVclAc9H2z5ZlGWXt?usp=sharing)]
 
 ## 8. Presentation slides:
-Please refer to "[kaggle-winner-call-version-july-05.pdf](https://github.com/hengck23/solution-vesuvius-challenge-ink-detection/blob/main/hyper-parameters.pdf)" in the repo.
+- Please refer to "[kaggle-winner-call-version-july-05.pdf](https://github.com/hengck23/solution-vesuvius-challenge-ink-detection/blob/main/hyper-parameters.pdf)" in the repo.
 
 ## Authors
 
