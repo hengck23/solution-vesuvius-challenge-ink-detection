@@ -111,7 +111,11 @@ usage: python run_infer_ms.py <configure> <model_file>
 
 ## License
 
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgement
+
+"We extend our thanks to HP for providing the Z8-G4 Data Science Workstation, which empowered our deep learning experiments. The high computational power and large GPU memory enabled us to design our models swiftly."
 
 
 
